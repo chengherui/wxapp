@@ -61,7 +61,7 @@ bindPickerChange: function(e) {
     reqData.urgent=urgent;
 
     wx.request({
-    url: INTERFACES.searchServiceNeeded,
+      url: INTERFACES.searchHelpList,
     data: reqData,
     method:"POST",
     header: {

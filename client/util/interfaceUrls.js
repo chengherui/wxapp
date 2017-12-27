@@ -1,8 +1,8 @@
-var prefix = 'https://jtx5hmyx.qcloud.la/weapp/';
+var prefix = 'https://jtx5hmyx.qcloud.la/api/';
 
 module.exports = {
     //helpList
-    "searchServiceNeeded":prefix + "searchServiceNeeded",
+  "searchHelpList": prefix + "searchHelpList",
     //myPage
     "getUserInfo":prefix + "getUserInfo",
     //helpDetail
